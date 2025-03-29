@@ -1,10 +1,13 @@
 :root {
     --primary-orange: #FF6B00;
     --secondary-orange: #E65100;
+    --primary-blue: #0096FF;
+    --secondary-blue: #004AFF;
+    --background-dark: #1a1a1a;  /* Site's background color */
 }
 
 body {
-    background-color: #1a1a1a;
+    background-color: var(--background-dark);
 }
 
 /* Gradient text effect */
@@ -130,4 +133,65 @@ body {
 .navbar .nav-link {
     display: inline-block;
     padding: 0.5rem 0;
+}
+
+/* Services Cards */
+.service-card {
+    background: #1a1a1a;
+    border: 1px solid rgba(255, 107, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 107, 0, 0.2);
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.service-card:hover::before {
+    opacity: 0.2;
+}
+
+.service-card .card-body {
+    position: relative;
+    z-index: 1;
+}
+
+.service-card .card-title {
+    background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.service-card .card-text {
+    color: #ffffff;
+}
+
+.service-card .card-img-top {
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Update section heading */
+.services-section h2 {
+    color: white;
+    margin-bottom: 2rem;
 }
