@@ -1,0 +1,133 @@
+:root {
+    --primary-orange: #FF6B00;
+    --secondary-orange: #E65100;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+/* Gradient text effect */
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-weight: 900 !important;
+    letter-spacing: 1px;
+    font-size: 1rem !important;
+}
+
+.navbar-logo {
+    height: 1.2rem;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.navbar .nav-link {
+    color: white !important;
+    transition: all 0.3s ease;
+    padding: 0.5rem 0;
+    position: relative;
+    z-index: 1;
+}
+
+.navbar .nav-link:hover {
+    background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
+    color: white !important;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+}
+
+.nav-item:not(:last-child)::after {
+    content: "|";
+    color: white;
+    margin: 0 10px;
+    opacity: 0.5;
+    position: relative;
+    display: inline-block;
+}
+
+/* Button styles */
+.btn-orange {
+    background: linear-gradient(135deg, var(--primary-orange), var(--secondary-orange));
+    border: none;
+    color: white !important;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-orange:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 107, 0, 0.3);
+}
+
+.btn-orange::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--secondary-orange), var(--primary-orange));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.btn-orange:hover::before {
+    opacity: 1;
+}
+
+.btn-orange .btn-text {
+    position: relative;
+    z-index: 2;
+}
+
+/* Special styling for Free Trial */
+.nav-link.free-trial {
+    color: var(--primary-orange) !important;
+}
+
+/* Updated navbar brand styling */
+.navbar-brand {
+    font-weight: 900 !important;
+    letter-spacing: 1px;
+    font-size: 1rem !important;
+    padding: 0.5rem 0;
+}
+
+/* Ensure nav links are visible by default */
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+/* Update navbar background to ensure contrast */
+.navbar {
+    background-color: transparent !important;
+}
+
+/* Add separator styling */
+.nav-item:not(:last-child)::after {
+    content: "|";
+    color: white;
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+/* Adjust nav-link padding to accommodate separators */
+.navbar .nav-link {
+    display: inline-block;
+    padding: 0.5rem 0;
+}
