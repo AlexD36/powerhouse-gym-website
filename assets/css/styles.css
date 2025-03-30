@@ -195,3 +195,17 @@ body {
     color: white;
     margin-bottom: 2rem;
 }
+
+/* Default text color for all card text */
+.card {
+    color: white; /* Set text color to white */
+}
+
+/* Optional: If you want to ensure that specific elements like headings or paragraphs have a different color, you can override here */
+.card-title {
+    color: inherit; /* Inherit the color from the card */
+}
+
+.card-text {
+    color: inherit; /* Inherit the color from the card */
+}
