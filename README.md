@@ -1,2 +1,2 @@
 # powerhouse-gym-website
-html css js bootstrap python django postgresql
+html css js bootstrap python django postgresql/sqlite
