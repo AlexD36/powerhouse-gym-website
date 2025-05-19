@@ -18,7 +18,7 @@ This project provides a template for gym websites that want a professional and e
 
 ## Showcase
 
-
+![Screenshot_19-5-2025_112256_](https://github.com/user-attachments/assets/2b56534d-93d5-4fb0-a40a-7d489056a946)
 
 ---
 
@@ -128,15 +128,15 @@ Contributions are welcome. To contribute:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## Credits & Resources
 
 * [Bootstrap 5](https://getbootstrap.com/)
 * [Google Fonts](https://fonts.google.com/)
 * [Unsplash](https://unsplash.com/) or [Pexels](https://pexels.com/) for stock images
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
 
