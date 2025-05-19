@@ -6,7 +6,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square\&logo=bootstrap\&logoColor=white)
 
-**Powerhouse Gym** is a responsive, modern frontend interface for a gym or fitness center website. Built with HTML, CSS, JavaScript, and Bootstrap, it delivers a fast, accessible, and mobile-friendly user experience.
+**Powerhouse Gym** is a responsive, modern frontend interface for a gym or fitness center website. Built with HTML, CSS, JavaScript, and Bootstrap, it delivers a fast, accessible, and mobile-friendly user experience, featuring a clean layout, smooth user experience, and structured sections for services, trainers, pricing, and contact.
 
 ---
 
