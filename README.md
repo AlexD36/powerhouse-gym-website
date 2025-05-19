@@ -18,7 +18,7 @@ This project provides a template for gym websites that want a professional and e
 
 ## Showcase
 
-![Screenshot_19-5-2025_112256_](https://github.com/user-attachments/assets/2b56534d-93d5-4fb0-a40a-7d489056a946)
+![Screenshot_19-5-2025_112943_](https://github.com/user-attachments/assets/9e1f0a00-2118-4165-a35a-b42729e63da6)
 
 ---
 
